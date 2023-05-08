@@ -1,2 +1,12 @@
-h1
-    color: $red
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+//* Mes variables couleurs :
+$red: #B12A3B;
+$grey:#E4E5E4;
+
+$custom-colors : (
+    "red" : $red ,
+    "text" : $grey ,
+);
+$theme-colors : map-merge($theme-colors , $custom-colors);
