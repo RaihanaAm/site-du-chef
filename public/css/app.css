@@ -10774,6 +10774,7 @@ textarea.form-control-lg {
   background-image: url(../../../../public/images/banner1.jpg);
   height: 100vh;
   background-size: cover;
+  background-position: center;
   filter: brightness(0.2);
 }
 
