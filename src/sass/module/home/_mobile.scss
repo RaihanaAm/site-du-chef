@@ -1,5 +1,5 @@
 
-@media ( min-width:375px ) and (max-width:425px)  {
+@media ( min-width:300px ) and (max-width:425px)  {
     // .navbar{
     //     position: absolute;
     //     z-index: 1;
@@ -19,14 +19,17 @@
             font-size: 16px;
             span{
                 font-family: "whatever";
-                font-size: 20px;
+                font-size: 22px;
             }
             
         }
     }
     .button1{
-        font-size: 8px;
+        font-size: 2px;
         padding: 2px 4px;
+    }
+    .red{
+        margin-top: 15px;
     }
 
     .deco{
@@ -35,5 +38,25 @@
         height: 10px;
         transform: rotate(180deg);
 
+    }
+    // section 
+    .main{
+        width: 90vw;
+    }
+    .decoration{
+        width: 80vw;
+    }
+    .corner{
+        width: 80px;
+    }
+    .title{
+        padding-top: 40px;
+        span{
+            font-size: 25px;
+            letter-spacing: -1px;
+        }
+    }
+    .para{
+        font-size: 13px;
     }
 };

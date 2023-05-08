@@ -10928,7 +10928,7 @@ nav {
 
 .our {
   background-image: url(../../../../public/images/main_bg.jpg);
-  height: 100vh;
+  height: auto;
 }
 .our .deco {
   background-image: url(../../../../public/images/bottom_decoration_img.png);
@@ -10951,6 +10951,37 @@ nav {
   font-family: "main";
 }
 
+.title {
+  font-family: "whatever";
+}
+.title span {
+  font-size: 60px;
+  letter-spacing: -1px;
+}
+
+.main {
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.para {
+  font-size: 14px;
+}
+
+.team {
+  width: 100%;
+  height: auto;
+  background-position: center;
+  filter: brightness(0.2);
+}
+
+.chef {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @media (min-width: 768px) and (max-width: 1000px) {
   .text h1, .text .h1 {
     font-size: 30px;
@@ -10969,8 +11000,18 @@ nav {
     height: 10px;
     transform: rotate(180deg);
   }
+  .title span {
+    font-size: 45px;
+    letter-spacing: -1px;
+  }
+  .main {
+    height: auto;
+  }
+  .para {
+    font-size: 12px;
+  }
 }
-@media (min-width: 375px) and (max-width: 425px) {
+@media (min-width: 300px) and (max-width: 425px) {
   .whatever {
     height: 80vh;
   }
@@ -10979,17 +11020,39 @@ nav {
   }
   .text h1 span, .text .h1 span {
     font-family: "whatever";
-    font-size: 20px;
+    font-size: 22px;
   }
   .button1 {
-    font-size: 8px;
+    font-size: 2px;
     padding: 2px 4px;
+  }
+  .red {
+    margin-top: 15px;
   }
   .deco {
     background-image: url(../../../../public/images/bottom_decoration_img.png);
     filter: brightness(0.1);
     height: 10px;
     transform: rotate(180deg);
+  }
+  .main {
+    width: 90vw;
+  }
+  .decoration {
+    width: 80vw;
+  }
+  .corner {
+    width: 80px;
+  }
+  .title {
+    padding-top: 40px;
+  }
+  .title span {
+    font-size: 25px;
+    letter-spacing: -1px;
+  }
+  .para {
+    font-size: 13px;
   }
 }
 

@@ -6,7 +6,7 @@
 @font-face {
     font-family: "main";
     src: url(../../../../public/fonts/SchibstedGrotesk-VariableFont_wght.ttf);
-   
+    
 };
 
 
@@ -14,4 +14,33 @@
     margin: 0;
     padding: 0;
     font-family: "main";
+}
+
+.title{
+    font-family: "whatever";
+    span{
+        font-size: 60px;
+        letter-spacing: -1px;
+    }
+}
+
+.main{
+height: auto;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.para{
+    font-size: 14px;
+}
+
+.team{
+    width: 100%;
+    height: auto;
+    background-position: center;
+    filter: brightness(0.2);
+}
+.chef{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
