@@ -10971,6 +10971,11 @@ nav {
   left: 8%;
 }
 
+.button1 {
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
 @font-face {
   font-family: "whatever";
   src: url(../../../../public/fonts/Courgette-Regular.ttf);
