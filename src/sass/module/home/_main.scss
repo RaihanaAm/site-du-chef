@@ -48,7 +48,23 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 // section
+.book{
+    margin-top: 20px;
+    width: 630px;
+}
 .f::placeholder {
-
     color: black;
+    font-size: 14px;
+}
+.input-1{
+    top: 25%;
+}
+.input-2{
+    top: 38%;
+}
+.input-3{
+    top: 51%;
+}
+.input-4{
+    top: 64%;
 }
