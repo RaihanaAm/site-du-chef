@@ -1,0 +1,39 @@
+
+@media ( min-width:375px ) and (max-width:425px)  {
+    // .navbar{
+    //     position: absolute;
+    //     z-index: 1;
+    //     width: 100vw;
+    //     left:0;
+    // }
+    // .logo{
+    //     position: absolute;
+    //     top: 0px;
+    //     left: 45%
+    // }
+    .whatever{
+        height: 80vh;
+    }
+    .text{
+        h1 {
+            font-size: 16px;
+            span{
+                font-family: "whatever";
+                font-size: 20px;
+            }
+            
+        }
+    }
+    .button1{
+        font-size: 8px;
+        padding: 2px 4px;
+    }
+
+    .deco{
+        background-image: url(../../../../public/images/bottom_decoration_img.png);
+        filter:brightness(0.1);
+        height: 10px;
+        transform: rotate(180deg);
+
+    }
+};
