@@ -10965,13 +10965,12 @@ nav {
 }
 
 .para {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .team {
   width: 100%;
-  height: auto;
-  background-position: center;
+  height: 100vh;
   filter: brightness(0.2);
 }
 
@@ -10980,6 +10979,10 @@ nav {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.f::placeholder {
+  color: black;
 }
 
 @media (min-width: 768px) and (max-width: 1000px) {
@@ -11009,6 +11012,17 @@ nav {
   }
   .para {
     font-size: 12px;
+  }
+  .team {
+    height: 150vh;
+  }
+  .chef {
+    height: 90vh;
+    position: absolute;
+    top: 35%;
+  }
+  .cheef {
+    width: 170px;
   }
 }
 @media (min-width: 300px) and (max-width: 425px) {
@@ -11048,11 +11062,27 @@ nav {
     padding-top: 40px;
   }
   .title span {
-    font-size: 25px;
+    font-size: 35px;
     letter-spacing: -1px;
   }
   .para {
-    font-size: 13px;
+    font-size: 10px;
+  }
+  .team {
+    height: 250vh;
+  }
+  .chef {
+    height: 90vh;
+    position: absolute;
+    top: 20%;
+  }
+  .cheef {
+    width: 130px;
+  }
+  .cheeef {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 

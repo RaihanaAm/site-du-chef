@@ -1,16 +1,6 @@
 
 @media ( min-width:300px ) and (max-width:425px)  {
-    // .navbar{
-    //     position: absolute;
-    //     z-index: 1;
-    //     width: 100vw;
-    //     left:0;
-    // }
-    // .logo{
-    //     position: absolute;
-    //     top: 0px;
-    //     left: 45%
-    // }
+
     .whatever{
         height: 80vh;
     }
@@ -52,11 +42,39 @@
     .title{
         padding-top: 40px;
         span{
-            font-size: 25px;
+            font-size: 35px;
             letter-spacing: -1px;
         }
     }
     .para{
-        font-size: 13px;
+        font-size: 10px;
     }
+
+    .team{
+        height: 250vh;
+        // background-position: center;
+    }
+    .chef{
+        height: 90vh;
+        position: absolute;
+        top: 20%;       
+    }
+
+    .cheef{
+        width: 130px;
+    }
+    .cheeef{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    
+
+
+
+
+
+
 };
