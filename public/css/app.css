@@ -10964,8 +10964,11 @@ textarea.form-control-lg {
   font-size: 70px;
 }
 
-.logo {
-  background-image: url(../../../../public/images/logo.png);
+nav {
+  position: absolute;
+  z-index: 1;
+  width: 50vw;
+  left: 8%;
 }
 
 @font-face {
