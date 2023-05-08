@@ -1,2 +1,21 @@
-h1
-    color: $red
+.whatever{
+    background-image: url(../../../../public/images/banner1.jpg);
+    // width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    filter:brightness(0.2);
+    
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    .button-1{
+          
+    }   
+     p{
+        font-family: "whatever";
+        font-size: 45px;
+    }
+}
