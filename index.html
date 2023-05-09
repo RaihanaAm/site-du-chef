@@ -140,6 +140,8 @@
       </div>
     </div>
   </section>
+
+
 <!-- section -->
 <section class="our ">
   <div class="deco ">
@@ -154,28 +156,49 @@
     <!--  form-->
     <div class="position-relative">
       <div class="text-center position-relative">
-        <img class="book rounded" src="./public/images/book_table_bg.jpg" alt="">
+        <img class=" book rounded" src="./public/images/book_table_bg.jpg" alt="">
       </div>
       <div>
         <form action="" class="">
-          <h4 class="position-absolute">For any query please call us at : <span>+91-1234567890</span></h4>
-          <div class="input-1 position-absolute  d-flex container justify-content-center gap-3">
-            <div>  <input type="text" class="f form-control rounded-3 " placeholder="Enter Full Name " ></div>
-            <div>  <input type="text" class=" f form-control"  placeholder="Enter Id"></div>
+          <div class="input-1 position-absolute  d-md-flex container justify-content-md-center   gap-md-3">
+            <div>  <input type="text" class="f form-control text-center text-md-start  rounded-3 " placeholder="Enter Full Name " ></div>
+            <div>  <input type="text" class=" mt-2 mt-md-0 f form-control  text-center text-md-start "  placeholder="Enter Id"></div>
           </div>
-          <div class=" input-2 position-absolute  d-flex container justify-content-center gap-3">
-            <div>  <input type="number" class="f form-control " placeholder="Phone Number " ></div>
-            <div>  <input type="text" class=" f form-control" placeholder="No Of Person "></div>
+          <div class=" input-2 position-absolute   d-md-flex container justify-content-md-center gap-md-3">
+            <div>  <input type="number" class="f form-control  text-center text-md-start  " placeholder="Phone Number " ></div>
+            <div > <select class="s  mt-2 mt-md-0 form-select  text-center text-md-start " aria-label="Default select example">
+              <option selected>On of person</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select></div>
           </div>
-          <div class="input-3 position-absolute d-flex container justify-content-center gap-3">
-            <div>  <input type="text" class="f form-control "   placeholder="Date" ></div>
-            <div>  <input type="text" class=" f form-control" placeholder="Time"></div>
+          <div class="input-3 position-absolute  d-md-flex container justify-content-md-center gap-md-3">
+            <div>  <input type="text" class="f form-control  text-center text-md-start  "   placeholder="Date" ></div>
+            <div>  <input type="text" class=" mt-2 mt-md-0 f form-control  text-center text-md-start   text-center text-md-start " placeholder="Time"></div>
           </div>
-          <div class="input-4 position-absolute  d-flex container justify-content-center gap-3">
-            <div>  <input type="text" class="f form-control "  placeholder="occasion " ></div>
-            <div>  <input type="text" class=" f form-control"  placeholder="cuisine"></div>
+          <div class="input-4 position-absolute  d-md-flex container justify-content-md-center gap-md-3">
+            <div> <select class="s form-select  text-center text-md-start " aria-label="Default select example">
+              <option selected>Ocation</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select></div>
+            <div> <select class="s  mt-2 mt-md-0 form-select  text-center text-md-start " aria-label="Default select example">
+              <option selected>Cuisine</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select></div>
           </div>
+          <div class="b button text-center position-absolute container ">
+            <button type="button" class=" button2 red btn btn-red rounded-pill ps-md-3 pe-md-3 ps-lg-4 pe-lg-4  text-text  "> Book now</button>
+          </div>
+    
         </form>
+        <div  class=" t container position-absolute text-center text-text">
+          <p >For any query please call us at : <br class="d-md-none"> <span class="n">+91-1234567890</span></p>
+        </div>
       </div>
     </div>
     <div> <img class="corner position-absolute top-0 start-0" src="./public/images/box-left-top-grey.png" alt=""></div>
@@ -184,21 +207,48 @@
     <div> <img class="corner position-absolute bottom-0 end-0" src="./public/images/box-bottom_right-grey.png" alt="">
     </div>
     <div class="container  ">
-      <h1 class="title text-center m-0  pt-md-4"><span class=" title text-red">OUR </span> Menu list</h1>
+      <h1 class="title text-center m-0  pt-md-4"><span class=" title text-red">OUR </span> Blog</h1>
       <div class="text-center ">
         <img class="decoration" src="./public/images/decoration_line.png " alt="">
       </div>
-      <p class="para container text-center ">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dolorem totam. <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic? <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, earum dolore? <br>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem. <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, vero impedit. <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dolorem totam. <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic? <br>
-      </p>
-    </div>
-
+      <!-- blog -->
+      <div class="d-md-flex justify-content-md-center align-items-md-center  mt-5">
+        <div class="d-md-flex  gap-md-5  align-items-md-center  ">
+          <div class="width ">
+            <div class="">
+              <img  class=" rounded blog border-3 " src="./public/images/blog_img1.jpg" alt="">
+            </div>
+            <div class="">
+              <div class="  blog-r text-white text-center rounded bg-red">
+                <p><span >12</span> april 2017/ <span>20</span> Comment/ <span>35</span>Like</p>
+              </div>
+              <div class="paa mt-3">
+                <h4>lorem ipsum</h4>
+                <p class="pa">Lorem ipsum dolor sit amet consectetur. <br> Lorem, ipsum dolor.</p>
+              </div>
+            </div>
+          </div>
+          <div class=" width">
+            <div class="">
+              <img  class=" rounded blog border-3 " src="./public/images/blog_img2.jpg" alt="">
+            </div>
+            <div class="">
+              <div class="  blog-r text-white text-center rounded bg-red">
+                <p><span >12</span> april 2017/ <span>20</span> Comment/ <span>35</span>Like</p>
+              </div>
+              <div class="paa mt-3">
+                <h4 >lorem ipsum</h4>
+                <p class="pa">Lorem ipsum dolor sit amet consectetur. <br> Lorem, ipsum dolor.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+      <div class="  button text-center  container ">
+        <button type="button" class=" button red btn btn-red rounded-pill ps-md-3 pe-md-3 ps-lg-4 pe-lg-4  mt-lg-3 mb-5 text-white "> Knew more</button>
+      </div>
 </section>
 
 
