@@ -26,6 +26,7 @@ body{
     }
 }
 
+
 .main{
 height: auto;
 box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -137,4 +138,13 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     p{
         font-size: 12px;
     }
+}
+
+// contact
+.contact{
+    text-align: center;
+    width: 450px;
+    background-color: $red;
+    height: 350px;
+    border-radius: 20px;
 }

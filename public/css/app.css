@@ -11082,6 +11082,14 @@ body {
   font-size: 12px;
 }
 
+.contact {
+  text-align: center;
+  width: 450px;
+  background-color: #B12A3B;
+  height: 350px;
+  border-radius: 20px;
+}
+
 @media (min-width: 768px) and (max-width: 1000px) {
   .text h1, .text .h1 {
     font-size: 30px;
@@ -11388,6 +11396,16 @@ body {
     position: absolute;
     top: 10%;
     left: 35%;
+  }
+  .contact {
+    text-align: center;
+    width: 280px;
+    background-color: #B12A3B;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .contact p {
+    font-size: 12px;
   }
 }
 
