@@ -11090,6 +11090,37 @@ body {
   border-radius: 20px;
 }
 
+.deco1 {
+  background-image: url(../../../../public/images/bottom_decoration_img.png);
+  filter: brightness(0.1);
+  height: 10px;
+  margin-top: 20px;
+  transform: rotate(0deg);
+}
+
+.footer {
+  background-image: url(../../../../public/images/footer_background.jpg);
+  height: 50vh;
+}
+
+.divv {
+  width: 340px;
+}
+.divv p {
+  font-size: 14px;
+  padding-top: 12px;
+  font-weight: 100;
+}
+
+.button3 {
+  font-size: 13px;
+}
+
+.fin {
+  background-color: #B12A3B;
+  height: 15vh;
+}
+
 @media (min-width: 768px) and (max-width: 1000px) {
   .text h1, .text .h1 {
     font-size: 30px;
@@ -11219,6 +11250,44 @@ body {
   .box p {
     font-size: 12px;
   }
+  .deco1 {
+    background-image: url(../../../../public/images/bottom_decoration_img.png);
+    filter: brightness(0.1);
+    height: 10px;
+    margin-top: -5px;
+    transform: rotate(0deg);
+  }
+  .footer {
+    background-image: url(../../../../public/images/footer_background.jpg);
+    height: 140vh;
+  }
+  .divv {
+    width: 340px;
+  }
+  .divv p {
+    font-size: 14px;
+    padding-top: 12px;
+    font-weight: 100;
+  }
+  .button3 {
+    font-size: 13px;
+  }
+  .fin {
+    background-color: #B12A3B;
+    height: 15vh;
+  }
+  .tablet {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+  .tablet1 {
+    margin-top: 30px;
+  }
+  .insta {
+    width: 70px;
+  }
 }
 @media (min-width: 300px) and (max-width: 430px) {
   .whatever {
@@ -11307,6 +11376,7 @@ body {
   }
   .s {
     width: 230px;
+    height: 38px;
     font-size: 12px;
   }
   .t {
@@ -11406,6 +11476,44 @@ body {
   }
   .contact p {
     font-size: 12px;
+  }
+  .deco1 {
+    background-image: url(../../../../public/images/bottom_decoration_img.png);
+    filter: brightness(0.1);
+    height: 10px;
+    margin-top: -5px;
+    transform: rotate(0deg);
+  }
+  .footer {
+    background-image: url(../../../../public/images/footer_background.jpg);
+    height: 140vh;
+  }
+  .divv {
+    width: 280px;
+  }
+  .divv p {
+    font-size: 10px;
+    padding-top: 12px;
+    font-weight: 100;
+  }
+  .button3 {
+    font-size: 10px;
+  }
+  .fin {
+    background-color: #B12A3B;
+    height: 15vh;
+  }
+  .tablet {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+  .tablet1 {
+    margin-top: 30px;
+  }
+  .insta {
+    width: 60px;
   }
 }
 

@@ -148,3 +148,34 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     height: 350px;
     border-radius: 20px;
 }
+
+// footer
+
+.deco1{
+    background-image: url(../../../../public/images/bottom_decoration_img.png);
+    filter:brightness(0.1);
+    height: 10px;
+    margin-top: 20px;
+    transform: rotate(0deg);
+
+    }
+
+.footer{
+    background-image: url(../../../../public/images/footer_background.jpg);
+    height: 50vh;
+}
+.divv{
+    width: 340px;
+    p{
+        font-size: 14px;
+        padding-top: 12px;
+        font-weight:100;
+    }
+}
+.button3{
+    font-size: 13px;
+}
+.fin{
+    background-color: $red;
+    height: 15vh;
+}
