@@ -11125,6 +11125,53 @@ body {
   height: 15vh;
 }
 
+.tab-list {
+  height: 120px;
+  width: 180px;
+  background-color: white;
+  text-align: center;
+  padding-top: 20px;
+  font-family: "whatever";
+  font-size: 22px;
+}
+.tab-list i {
+  color: #E4E5E4;
+}
+
+.hoo {
+  background-color: white;
+  border: 1px solid #B12A3B;
+  color: black;
+}
+.hoo:focus {
+  background-color: white;
+  color: black;
+  border-right: 8px solid #B12A3B;
+}
+.hoo:focus i {
+  color: #B12A3B;
+}
+
+.munu-i {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.textt h3, .textt .h3 {
+  font-size: 14px;
+}
+.textt p {
+  font-size: 12px;
+}
+
+.prix {
+  background-color: #E4E5E4;
+  color: #B12A3B;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 @media (min-width: 768px) and (max-width: 1000px) {
   nav {
     width: 50vw;

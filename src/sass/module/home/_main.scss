@@ -180,3 +180,52 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     background-color: $red;
     height: 15vh;
 }
+
+.tab-list{
+    height: 120px;
+    width: 180px;
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-family: "whatever";
+    font-size: 22px;
+    i{
+        color: $grey;
+    }
+}
+.hoo{
+    background-color: white;
+    border: 1px solid $red;
+    i{
+    }
+    color: black;
+}
+.hoo:focus{
+    background-color: white;
+    i{
+        color: $red;
+    }
+    color: black;
+    border-right: 8px solid $red;
+
+}
+.munu-i{
+    // margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.textt{
+    h3{
+        font-size: 14px;
+    }
+    p{
+        font-size: 12px;
+    }
+}
+.prix{
+background-color: $grey;
+color: $red;
+padding-left: 5px;
+padding-right: 5px;
+}
