@@ -10893,19 +10893,22 @@ textarea.form-control-lg {
   }
 }
 nav {
-  position: absolute;
-  z-index: 1;
   width: 50vw;
-  left: 80%;
+}
+
+.head {
+  margin-top: 0;
+  background-image: url(../../../../public/images/bbbbb.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.head li:hover {
+  background-color: #B12A3B;
 }
 
 .whatever {
-  background-image: url(../../../../public/images/banner1.jpg);
   position: relative;
   height: 100vh;
-  background-size: cover;
-  background-position: center;
-  filter: brightness(0.2);
 }
 
 .text {
@@ -10952,6 +10955,7 @@ nav {
 }
 
 body {
+  margin: 0;
   background-image: url(../../../../public/images/main_bg.jpg);
 }
 
@@ -11122,6 +11126,19 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 1000px) {
+  nav {
+    width: 50vw;
+  }
+  .head {
+    margin-top: 0;
+  }
+  .head li:hover {
+    background-color: #B12A3B;
+  }
+  .logo {
+    width: 80px;
+    text-align: center;
+  }
   .text h1, .text .h1 {
     font-size: 30px;
   }

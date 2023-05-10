@@ -10,46 +10,49 @@
 </head>
 
 <body>
-  <nav class=" d-none d-md-none navbar  d-lg-none d-lg-flex  container mt-lg-1 ">
-    <ul
-      class="   text-center container col-lg-5 border-top border-bottom border-text text-text d-flex align-items-center p-2 list-unstyled ">
-      <li class=" col-3"><a href="#" class="nav-link">Home</a> </li>
-      <li class=" col-3"> <a href="#" class="nav-link">about us</a> </li>
-      <li class=" col-3"><a href="#" class="nav-link">Menu list</a> </li>
-      <li class=" col-3"><a href="#" class="nav-link">Team</a> </li>
-    </ul>
+  <header class="head">
 
-    <div class="col-2 logo d-lg-flex align-items-center justify-content-center ">
-      <img class="mb-5" src="./public/images/logo.png" alt="">
-    </div>
-    <ul
-      class=" text-center container col-lg-5 border-top border-bottom border-text text-text d-flex align-items-center p-2 list-unstyled ">
-      <li class=" col-3"><a href="#" class="nav-link">reservation</a></li>
-      <li class=" col-3"> <a href="#" class="nav-link">Blog</a></li>
-      <li class=" col-3"> <a href="#" class="nav-link">Test monials</a> </li>
-      <li class=" col-3"> <a href="#" class="nav-link">Contact us</a></li>
-    </ul>
-
-  </nav>
-  <!-- section -->
-
-  <section>
-    <div class="whatever "></div>
-    <div class="text text-center text-text">
-      <h1>
-        Whatever your <span class="occasion">occasion</span> <br>
-        <span class="taste text-uppercase text-red ">taste</span><span class="makes"> makes</span> it one <br>
-        to <span class="remember"> remember !</span>
-      </h1>
-      <br>
-      <div class=" button text-center  ">
-        <button type="button" class="button1 btn btn-text rounded-pill "> purchase theme</button>
-        <button type="button" class="button1 red btn btn-red rounded-pill  text-text  "> learn more</button>
+    <nav  class="navbar container mt-lg-1 ">
+      <ul
+        class="   text-center container col-lg-5 border-top border-bottom border-text text-text d-flex align-items-center  list-unstyled ">
+        <li class=" p-lg-2 col-3"><a href="#" class="nav-link">Home</a> </li>
+        <li class=" p-lg-2 col-3"> <a href="#about-us" class="nav-link">about us</a> </li>
+        <li class="p-lg-2 col-3"><a href="#menu" class="nav-link">Menu list</a> </li>
+        <li class=" p-lg-2 col-3"><a href="#chef" class="nav-link">Team</a> </li>
+      </ul>
+  
+      <div class="col-lg-2  d-md-flex align-items-center justify-content-center ">
+        <img class="logo  mb-4" src="./public/images/logo.png" alt="">
       </div>
-    </div>
-  </section>
+      <ul
+        class=" text-center container col-lg-5 border-top border-bottom border-text text-text d-flex align-items-center list-unstyled ">
+        <li class="p-lg-2 col-3"><a href="#form" class="nav-link">reservation</a></li>
+        <li class="p-lg-2 col-3"> <a href="#blog" class="nav-link">Blog</a></li>
+        <li class="p-lg-2 col-3"> <a href="#test" class="nav-link">Test monials</a> </li>
+        <li class="p-lg-2 col-3"> <a href="#contact" class="nav-link">Contact us</a></li>
+      </ul>
+  
+    </nav>
+    <!-- section -->
+  
+    <section class="">
+      <div class="whatever "></div>
+      <div class="mt-lg-5 text text-center text-text">
+        <h1>
+          Whatever your <span class="occasion">occasion</span> <br>
+          <span class="taste text-uppercase text-red ">taste</span><span class="makes"> makes</span> it one <br>
+          to <span class="remember"> remember !</span>
+        </h1>
+        <br>
+        <div class=" button text-center  ">
+          <button type="button" class="button1 btn btn-text rounded-pill "> purchase theme</button>
+          <button type="button" class="button1 red btn btn-red rounded-pill  text-text  "> learn more</button>
+        </div>
+      </div>
+    </section>
+  </header>
   <!-- section -->
-  <section class="our ">
+  <section id="menu" class="our ">
     <div class="deco ">
     </div>
     <div class="mt-5 main  container bg-white position-relative">
@@ -99,7 +102,7 @@
     <div class="position-relative ">
       <img class="team " src="./public/images/team_background.jpg" alt="">
 
-      <div class=" chef">
+      <div id="chef" class=" chef">
         <h1 class="title text-white text-center m-0  pt-lg-4"> <span class=" title text-red">MEET </span> Our chef</h1>
         <div class="text-center ">
           <img class="decoration" src="./public/images/decoration_line.png " alt="">
@@ -144,7 +147,7 @@
 
 
   <!-- section -->
-  <section class="our ">
+  <section id="form" class="our ">
     <div class=" ">
     </div>
     <div class="mt-5 main  container bg-white position-relative">
@@ -225,7 +228,7 @@
           <img class="decoration" src="./public/images/decoration_line.png " alt="">
         </div>
         <!-- blog -->
-        <div class="d-md-flex justify-content-md-center align-items-md-center  mt-5">
+        <div id="blog" class="d-md-flex justify-content-md-center align-items-md-center  mt-5">
           <div class="d-md-flex  gap-md-5  align-items-md-center  ">
             <div class="width ">
               <div class="">
@@ -267,7 +270,7 @@
   </section>
 <br><br>
   <!-- client -->
-  <section class="client">
+  <section id="test" class="client">
     <div class="container">
       <h1 class="title text-center m-0 text-white  pt-md-4"><span class=" title text-red">Client </span> testmontioal</h1>
       <div class="text-center ">
@@ -308,7 +311,7 @@
     </div>
   </section>
   <!-- section contact -->
-  <section>
+  <section id="contact">
     <div class="container ">
       <h1 class="title text-center m-0  pt-md-3"><span class=" title text-red">Our </span> Contact</h1>
       <div class="text-center ">
@@ -343,8 +346,8 @@
     <div class="d-lg-flex align-items-lg-center justify-content-lg-around text-white  pt-5 ">
       <div class="tablet tablet1">
 
-        <div class="divv "> 
-          <h4 class="">About us</h4>
+        <div id="about-us" class="divv "> 
+          <h4  class="">About us</h4>
           <p class="text-text">
             Lorem ipsum dolor sit amet consectetur adipisicing  <br>
             Lorem ipsum dolor sit amet consectetur adipisicing  <br>

@@ -1,17 +1,18 @@
 
 @media ( min-width:768px ) and (max-width:1000px)  {
-    // .navbar{
-    //     position: absolute;
-    //     z-index: 1;
-    //     width: 100vw;
-    //     left:0;
-    // }
-    // .logo{
-    //     position: absolute;
-    //     top: 0px;
-    //     left: 45%
-    // }
-
+    nav{
+        width: 50vw;
+    }
+    .head{
+        margin-top: 0;
+        li:hover {
+            background-color:$red;
+        }
+    }
+    .logo{
+        width: 80px;
+        text-align: center;
+    }
     .text{
         h1 {
             font-size: 30px;
